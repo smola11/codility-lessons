@@ -6,6 +6,10 @@ public class CyclicRotation {
 
     public int[] solution(int[] integers, int rotations) {
 
+        if (integers.length == 0) {
+            return integers;
+        }
+
         rotations = rotations % integers.length;
         if (rotations == 0) return integers;
 
