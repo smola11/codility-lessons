@@ -32,4 +32,9 @@ class CyclicRotationTest {
         assertArrayEquals(new int[]{1, 2, 3, 4}, new CyclicRotation().solution(new int[]{1, 2, 3, 4}, 8));
     }
 
+    @Test
+    public void testEmptyArray() throws Exception {
+        assertArrayEquals(new int[]{}, new CyclicRotation().solution(new int[]{}, 8));
+    }
+
 }
