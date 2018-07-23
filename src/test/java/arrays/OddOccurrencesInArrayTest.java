@@ -16,5 +16,10 @@ class OddOccurrencesInArrayTest {
         assertEquals(7, new OddOccurrencesInArray().solution(new int[]{9, 3, 9, 3, 9, 7, 9}));
     }
 
+    @Test
+    public void testSecondCase() throws Exception {
+        assertEquals(7, new OddOccurrencesInArray().solution(new int[]{7, 3, 9, 3, 9, 9, 9}));
+    }
+
 
 }
