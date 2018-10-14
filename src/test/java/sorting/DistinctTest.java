@@ -1,9 +1,8 @@
 package sorting;
 
 import org.junit.jupiter.api.Test;
-import timeComplexity.FrogJmp;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class DistinctTest {
 
